@@ -1,0 +1,10 @@
+footer {
+  background-color: $color-footer;
+  color: $color-texto;
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  @include boton-estilo($color-principal, $color-texto);
+}

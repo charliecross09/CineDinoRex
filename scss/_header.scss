@@ -1,0 +1,19 @@
+nav {
+  background-color: $color-principal;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    li a {
+      color: $color-texto;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-secundario;
+      }
+    }
+  }
+}

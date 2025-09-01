@@ -1,0 +1,20 @@
+$color-principal: #007BBA;
+$color-secundario: #FFD700;
+$color-footer: #222;
+$color-texto: #fff;
+
+$fuente-principal: Arial, sans-serif;
+
+
+@mixin boton-estilo($bg, $color) {
+  background-color: $bg;
+  color: $color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

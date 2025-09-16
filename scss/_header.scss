@@ -2,17 +2,18 @@ nav {
   background-color: $color-principal;
 
   ul {
-    list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
 
     li a {
       color: $color-texto;
       text-decoration: none;
 
-      &:hover {
+      &:hover,
+      &:focus-visible {
         color: $color-secundario;
+        text-decoration: underline;
       }
     }
   }

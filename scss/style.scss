@@ -2,3 +2,7 @@
 @import 'header';
 @import 'footer';
 @import 'cards';
+
+body {
+  font-family: $fuente-principal;
+}

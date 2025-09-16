@@ -2,10 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="CineDinoRex - Descubre tus películas y series favoritas. Información, tráilers, animaciones y más en un solo lugar.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio - CineDinoRex</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -15,15 +17,17 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">CineDinoRex</a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-        </ul>
+  <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+  <li class="nav-item"><a class="nav-link" href="pages/catalogo.html">Catálogo</a></li>
+  <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+</ul>
+
       </div>
     </div>
   </nav>
@@ -40,22 +44,77 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <article>
-            <h3 class="arcane">Arcane: League of Legends</h3>
-            <p>Una obra visualmente impresionante...</p>
+            <h3 class="arcane text-primary">Arcane: League of Legends</h3>
+            <p>Con las dispares ciudades de Piltover y Zaun como telón de fondo, dos hermanas luchan en bandos opuestos de una guerra entre tecnologías mágicas y creencias enfrentadas</p>
             <img src="Multimedia/arcane-league-of-legends-poster.jpg" alt="Póster de Arcane" class="img-fluid" data-aos="fade-up-right" data-aos-duration="800" data-aos-once="true">
 
           </article>
         </div>
         <div class="col-12 col-md-6">
           <article>
-            <h3 class="cyberpunk">Cyberpunk: Edgerunners</h3>
-            <p>Una serie intensa ambientada en Night City...</p>
+            <h3 class="cyberpunk text-warning">Cyberpunk: Edgerunners</h3>
+            <p>ambientada en Night City Un joven huérfano se ve obligado a convertirse en un mercenario en una ciudad obsesionada con la tecnología y las modificaciones corporales.</p>
             <img src="Multimedia/cyberpunk-edgerunners-poster.jpg" alt="Póster de Cyberpunk: Edgerunners" class="img-fluid" data-aos="fade-up-left" data-aos-duration="800" data-aos-once="true">
-
-          </article>
+         </article>
         </div>
-      </div>
-    </section>
+      <div class="row">
+    <div class="col-12 col-md-6">
+      <article>
+        <h3 class="got text-dark">Game of Thrones</h3>
+        <p>Las luchas de poder y conflictos dinásticos entre varias familias nobles por el control del Trono de Hierro.</p>
+        <img src="Multimedia/game-of-thrones-poster.jpg" 
+             alt="Póster de Game of Thrones" 
+             class="img-fluid" 
+             data-aos="fade-up" 
+             data-aos-duration="800" 
+             data-aos-once="true">
+      </article>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <article>
+        <h3 class="alien text-primary">Alien Earth</h3>
+        <p>Una aventura épica en un planeta alienígena lleno de misterios y civilizaciones desconocidas.</p>
+        <img src="Multimedia/alien-earth-poster.jpg" 
+             alt="Póster de Alien Earth" 
+             class="img-fluid" 
+             data-aos="fade-up-left" 
+             data-aos-duration="800" 
+             data-aos-once="true">
+      </article>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <article>
+      <h3 class="stranger text-danger">Stranger Things</h3>
+      <p>Un grupo de niños en un pequeño pueblo descubre misterios sobrenaturales y una dimensión oscura llamada el Mundo del Revés.</p>
+      <img src="Multimedia/stranger-things-poster.jpg"
+           alt="Póster de Stranger Things"
+           class="img-fluid"
+           data-aos="fade-up"
+           data-aos-duration="800"
+           data-aos-once="true">
+    </article>
+  </div>
+
+  <div class="col-12 col-md-6">
+    <article>
+      <h3 class="ldr text-info">Love, Death & Robots</h3>
+      <p>Antología de cortos animados que exploran mundos futuristas, horror y humor negro.</p>
+      <img src="Multimedia/Love de Death y Robots de Poster.jpg"
+           alt="Póster de Love, Death & Robots"
+           class="img-fluid"
+           data-aos="fade-up-left"
+           data-aos-duration="800"
+           data-aos-once="true">
+    </article>
+  </div>
+</div>
+
+
+  </section>
   </main>
 
 
